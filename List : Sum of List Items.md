@@ -13,8 +13,6 @@ To write a Python program that calculates the **sum of all elements** in a list.
 numbers = [14, 16, 18, 22]
 total = sum(numbers)
 print(total)
-
-
 ```
 
 
