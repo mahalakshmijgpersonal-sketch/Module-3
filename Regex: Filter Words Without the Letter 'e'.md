@@ -16,21 +16,20 @@ To write a Python program that filters out and returns all elements from a list 
 ## 🧾 Program
 ```
 import re
+l1 = []
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+for i in items:
+    if not re.search(r"e", i):
+        l1.append(i)
+print(l1)
 
-lst = ["apple", "cat", "dog", "elephant", "bat"]
-
-result = [x for x in lst if not re.search("e", x)]
-
-print(result)
 ```
 ## Output
 
+<img width="824" height="160" alt="image" src="https://github.com/user-attachments/assets/20919aae-1c63-4cda-ba6e-497d99d47fac" />
 
-<img width="222" height="46" alt="image" src="https://github.com/user-attachments/assets/366c527f-ca80-4697-a697-74dd228bd4c8" />
+
 
 ## Result
 
-
-
-The program uses regular expressions to filter and display all list elements that do not contain the letter **'e'**.
-
+Thus , the program has been executed succesfully.
