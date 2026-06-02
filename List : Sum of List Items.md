@@ -10,18 +10,17 @@ To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧾 Program
 ```
+numbers = [14, 16, 18, 22]
+total = sum(numbers)
+print(total)
 
-lst = list(map(int, input().split()))
-
-print("Sum =", sum(lst))
 
 ```
 
 
 
 ## Output
-
-<img width="123" height="64" alt="image" src="https://github.com/user-attachments/assets/a3ae1123-d04d-4b35-8717-95cca564f0c0" />
+<img width="876" height="156" alt="image" src="https://github.com/user-attachments/assets/8f8a1bdb-7971-4f72-b371-494da9fe912d" />
 
 
 
